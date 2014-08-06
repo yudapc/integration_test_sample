@@ -10,13 +10,21 @@ GEM
       xpath (~> 2.0)
     childprocess (0.5.3)
       ffi (~> 1.0, >= 1.0.11)
+    coderay (1.1.0)
     diff-lcs (1.2.5)
     ffi (1.9.3)
+    method_source (0.8.2)
     mime-types (2.3)
     mini_portile (0.6.0)
     multi_json (1.10.1)
     nokogiri (1.6.3.1)
       mini_portile (= 0.6.0)
+    pry (0.9.12.6)
+      coderay (~> 1.0)
+      method_source (~> 0.8)
+      slop (~> 3.4)
+    pry-nav (0.2.3)
+      pry (~> 0.9.10)
     rack (1.5.2)
     rack-test (0.6.2)
       rack (>= 1.0)
@@ -41,6 +49,7 @@ GEM
     site_prism (2.6)
       addressable (~> 2.3.3)
       capybara (>= 2.1, < 3.0)
+    slop (3.5.0)
     websocket (1.0.7)
     xpath (2.0.0)
       nokogiri (~> 1.3)
@@ -50,6 +59,8 @@ PLATFORMS
 
 DEPENDENCIES
   capybara
+  pry
+  pry-nav
   rspec
   selenium-webdriver
   site_prism
