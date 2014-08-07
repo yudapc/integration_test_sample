@@ -20,3 +20,13 @@ Install Rails
 * sudo apt-get update
 * sudo apt-get install nodejs
 * gem install rails
+
+================================================================
+Install Chromedriver
+================================================================
+- wget -N http://chromedriver.storage.googleapis.com/2.9/chromedriver_linux64.zip -P ~/Downloads
+- unzip ~/Downloads/chromedriver_linux64.zip -d ~/Downloads
+- chmod +x ~/Downloads/chromedriver
+- sudo mv -f ~/Downloads/chromedriver /usr/local/share/chromedriver
+- sudo ln -s /usr/local/share/chromedriver /usr/local/bin/chromedriver
+- sudo ln -s /usr/local/share/chromedriver /usr/bin/chromedriver
