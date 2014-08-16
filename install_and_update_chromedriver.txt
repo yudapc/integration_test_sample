@@ -1,0 +1,6 @@
+you can visite http://chromedriver.storage.googleapis.com/index.html
+
+$ wget http://chromedriver.storage.googleapis.com/2.10/chromedriver_linux64.zip
+$ Unzip chromedriver_linux64.zip
+$ cp chromedriver /usr/local/bin
+$ chmod +x /usr/local/bin/chromedriver
